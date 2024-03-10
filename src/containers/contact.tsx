@@ -12,9 +12,9 @@ const ContactSection = () => {
     >
       <Effect variant="ball" size="default" className="-top-4 -end-4" />
       <SectionTitle title="get in touch" description="let's work together" />
-      <a href="mailto:test@test.com" className={buttonVariants({ size: "lg" })}>
+      <a href="mailto:contact@abderraouf-filali.tech" className={buttonVariants({ size: "lg" })}>
         <Mail className="size-4" />
-        <span>si hello</span>
+        <span>Say hello 👋🏻</span>
       </a>
     </section>
   );
