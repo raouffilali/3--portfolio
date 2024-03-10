@@ -14,7 +14,7 @@ const SkillItem: FC<SkillItemProps> = ({ item }) => {
   useEffect(() => {
     const timer = setTimeout(() => setProgress(item.value), 250);
     return () => clearTimeout(timer);
-  }, []);
+  }, [item.value]);
 
   return (
     <article className="grid gap-2">
