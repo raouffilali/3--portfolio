@@ -8,9 +8,9 @@ import MobileNav from "@/components/navigation/mobile-nav";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Portfolio Youtube",
+  title: "Portfolio - Abderraouf Filali",
   description:
-    "fullstack portfolio with NextJs, Sanity, Shadcn-ui and Typescript",
+    "Abderraouf Filali is a software engineer and a full-stack web developer. He is passionate about building web applications and solving problems using technology. He is also a tech enthusiast and a lifelong learner.",
   icons: [
     {
       url: "/favicon.svg",
