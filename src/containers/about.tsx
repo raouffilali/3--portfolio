@@ -37,10 +37,14 @@ const AboutSection = () => {
             <b>+3 years of experience. </b>
           </span>
           Holding a <b>Bachelor&apos;s in Information Systems</b> and a{" "}
-          <b>Master&apos;s in Data Engineering and Web Technology</b>, I have worked
-          on numerous projects for clients, businesses, and startups. Skilled in
-          web design and UI/UX, I am passionate about AI and enjoy sharing tech
-          knowledge through content creation on social media.
+          <b>Master&apos;s in Data Engineering and Web Technology</b>, I have
+          worked on numerous projects for clients, businesses, and startups.
+          Skilled in
+          <span className="text-primary">
+            <b> web design and UI/UX</b>
+          </span>
+          , I am passionate about <b>AI</b> and enjoy sharing tech knowledge
+          through <b>content creation</b> on social media.
         </p>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 items-end">
           {statistics.map((item, index) => (

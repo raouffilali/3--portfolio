@@ -36,10 +36,11 @@ const HomeSection = () => {
           hi, i&apos;m abderraouf
         </h2>
         <h5 className="text-xl md:text-2xl font-semibold capitalize">
-          Software Engineer 🧠 | Full-stack Web developer | IA Enthousiast🤖
+          Software Engineer 🧠 | Full-stack Web developer | Data Science🤖 |
+          Freelancer
         </h5>
-        <div className="border-l-[0px] border-gray-500 pt-2 italic font-medium">
-          <p className="leading-7 md:text-lg md:max-w-[85%] text-center md:text-start">
+        <div className=" pt-2 italic font-medium">
+          <p className="leading-7 md:text-lg md:max-w-[85%] text-center md:text-start hover:border-dotted hover:border-2 hover:border-sky-500 hover:p-6 ">
             &quot;The science of today is the technology of tomorrow.&quot; -
             Edward Teller
           </p>
