@@ -9,6 +9,7 @@ import React from "react";
 const SkillsSection = async () => {
   const frontendSkills = await getSkills("frontend");
   const backendSkills = await getSkills("backend");
+  const databaseSkills = await getSkills("database");
   const tools = await getSkills("tools");
 
   return (
@@ -38,7 +39,7 @@ const SkillsSection = async () => {
               <SkillsContainer data={backendSkills} label="back end" />
             </TabsContent>
             <TabsContent value="database">
-              <SkillsContainer data={backendSkills} label="database" />
+              <SkillsContainer data={databaseSkills} label="database" />
             </TabsContent>
             <TabsContent value="tools">
               <SkillsContainer data={tools} label="tools" />
