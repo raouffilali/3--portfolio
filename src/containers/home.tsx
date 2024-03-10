@@ -40,8 +40,8 @@ const HomeSection = () => {
         </h5>
         <div className="border-l-[0px] border-gray-500 pt-2 italic font-medium">
           <p className="leading-7 md:text-lg md:max-w-[85%] text-center md:text-start">
-            "The science of today is the technology of tomorrow." - Edward
-            Teller
+            &quot;The science of today is the technology of tomorrow.&quot; -
+            Edward Teller
           </p>
         </div>
         <div className="flex items-center gap-2 py-4">

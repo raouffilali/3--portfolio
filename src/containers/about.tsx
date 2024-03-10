@@ -24,7 +24,7 @@ const AboutSection = () => {
           className="items-start"
         />
         <p className="text-lg">
-          Hey there. I'm a{" "}
+          Hey there. I&apos;m a{" "}
           <span className="text-primary">
             <b>Software Engineer </b>
           </span>{" "}
@@ -36,8 +36,8 @@ const AboutSection = () => {
           <span className="text-primary">
             <b>+3 years of experience. </b>
           </span>
-          Holding a <b>Bachelor's in Information Systems</b> and a{" "}
-          <b>Master's in Data Engineering and Web Technology</b>, I have worked
+          Holding a <b>Bachelor&apos;s in Information Systems</b> and a{" "}
+          <b>Master&apos;s in Data Engineering and Web Technology</b>, I have worked
           on numerous projects for clients, businesses, and startups. Skilled in
           web design and UI/UX, I am passionate about AI and enjoy sharing tech
           knowledge through content creation on social media.
