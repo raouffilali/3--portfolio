@@ -5,6 +5,16 @@ import { ArrowRightCircle, Download } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
+
+interface JSX {
+  IntrinsicElements: {
+    section: React.DetailedHTMLProps<
+      React.HTMLAttributes<HTMLElement>,
+      HTMLElement
+    >;
+  };
+}
+
 const HomeSection = () => {
   return (
     <section id="home" className="grid md:grid-cols-12 items-center gap-6">
@@ -24,17 +34,17 @@ const HomeSection = () => {
       {/* Presentation */}
       <div className="md:col-span-6 flex flex-col items-center md:items-start gap-y-4">
         <h2 className="text-3xl md:text-5xl font-bold text-foreground capitalize">
-          hi, i&apos;m mustapha
+          hi, i&apos;m abderraouf
         </h2>
         <h5 className="text-xl md:text-2xl font-semibold capitalize">
-          frontend developer
+          Software Engineer 🧠 | Full-stack Web developer | IA Enthousiast🤖
         </h5>
-        <p className="leading-7 md:text-lg md:max-w-[85%] text-center md:text-start">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, eos
-          neque id consectetur, iste quas perspiciatis, quasi suscipit corrupti
-          voluptate sunt commodi minus fugit doloremque rerum earum voluptates
-          cupiditate voluptatibus?
-        </p>
+        <div className="border-l-[0px] border-gray-500 pt-2 italic font-medium">
+          <p className="leading-7 md:text-lg md:max-w-[85%] text-center md:text-start">
+            "The science of today is the technology of tomorrow." - Edward
+            Teller
+          </p>
+        </div>
         <div className="flex items-center gap-2 py-4">
           <a href="#projects" className={buttonVariants({ size: "lg" })}>
             <span>my works</span>

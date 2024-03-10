@@ -24,10 +24,23 @@ const AboutSection = () => {
           className="items-start"
         />
         <p className="text-lg">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
-          inventore vero minima consequuntur ipsam illo nemo nulla at voluptatum
-          iusto. Dolores commodi provident facere blanditiis suscipit tempore
-          praesentium nulla quaerat? Officia, officiis?
+          Hey there. I'm a{" "}
+          <span className="text-primary">
+            <b>Software Engineer </b>
+          </span>{" "}
+          and{" "}
+          <span className="text-primary">
+            <b>Full-stack Web Developer</b>
+          </span>{" "}
+          with{" "}
+          <span className="text-primary">
+            <b>+3 years of experience. </b>
+          </span>
+          Holding a <b>Bachelor's in Information Systems</b> and a{" "}
+          <b>Master's in Data Engineering and Web Technology</b>, I have worked
+          on numerous projects for clients, businesses, and startups. Skilled in
+          web design and UI/UX, I am passionate about AI and enjoy sharing tech
+          knowledge through content creation on social media.
         </p>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 items-end">
           {statistics.map((item, index) => (

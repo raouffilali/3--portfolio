@@ -11,7 +11,7 @@ export interface NavLink extends SocialLink {
 
 export interface Statistic {
   label: string;
-  value: number;
+  value: number | string | string[] | Date;
 }
 
 export type SkillCategory = "frontend" | "backend" | "tools";
