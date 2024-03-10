@@ -1,8 +1,9 @@
 import { Skill, SkillCategory } from "@/types/interfaces";
 import { client } from "@lib/client";
+import { groq } from "next-sanity";
 
 export async function getSkills(category: SkillCategory) {
-  const query = `
+  const query = groq`
         *[_type=="skills" && category=="${category}"]{
             _id,label,value, category
       }[]

@@ -1,8 +1,9 @@
 import { Project } from "@/types/interfaces";
 import { client } from "@lib/client";
+import { groq } from "next-sanity";
 
 export async function getProjects() {
-  const query = `
+  const query = groq`
         *[_type=="projects"]{
             _id,
             title,
