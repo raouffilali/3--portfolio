@@ -14,7 +14,7 @@ export interface Statistic {
   value: number;
 }
 
-export type SkillCategory = "frontend" | "backend" | "tools";
+export type SkillCategory = "frontend" | "backend" |"database"| "tools";
 
 export interface Skill {
   _id: string;

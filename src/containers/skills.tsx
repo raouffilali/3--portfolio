@@ -37,6 +37,9 @@ const SkillsSection = async () => {
             <TabsContent value="backend">
               <SkillsContainer data={backendSkills} label="back end" />
             </TabsContent>
+            <TabsContent value="database">
+              <SkillsContainer data={backendSkills} label="database" />
+            </TabsContent>
             <TabsContent value="tools">
               <SkillsContainer data={tools} label="tools" />
             </TabsContent>

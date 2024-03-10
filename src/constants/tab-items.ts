@@ -1,5 +1,5 @@
 import { TabItem } from "@/types/interfaces";
-import { AppWindow, PencilRuler, TerminalSquare } from "lucide-react";
+import { AppWindow, PencilRuler, TerminalSquare, DatabaseIcon } from "lucide-react";
 
 export const tabItems: TabItem[] = [
   {
@@ -11,6 +11,11 @@ export const tabItems: TabItem[] = [
     value: "backend",
     icon: TerminalSquare,
     label: "back end",
+  },
+  {
+    value: "database",
+    icon: DatabaseIcon,
+    label: "database",
   },
   {
     value: "tools",

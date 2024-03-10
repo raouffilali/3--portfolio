@@ -30,6 +30,7 @@ export default defineType({
         list: [
           { title: "Front End", value: "frontend" },
           { title: "Back End", value: "backend" },
+          { title: "Database", value: "database" },
           { title: "Tools", value: "tools" },
         ],
       },
