@@ -5,7 +5,6 @@ import { ArrowRightCircle, Download } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
-
 interface JSX {
   IntrinsicElements: {
     section: React.DetailedHTMLProps<
@@ -51,7 +50,7 @@ const HomeSection = () => {
             <ArrowRightCircle className="size-4" />
           </a>
           <a
-            href="/cv.pdf"
+            href="/Abderraouf_FILALI_CV.pdf"
             className={buttonVariants({ variant: "outline", size: "lg" })}
             target="_blank"
             download
