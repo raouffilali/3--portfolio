@@ -34,7 +34,7 @@ const AboutSection = () => {
           </span>{" "}
           with{" "}
           <span className="text-primary">
-            <b>+3 years of experience. </b>
+            <b>+4 years of experience. </b>
           </span>
           Holding a <b>Bachelor&apos;s in Information Systems</b> and a{" "}
           <b>Master&apos;s in Data Engineering and Web Technology</b>, I have
